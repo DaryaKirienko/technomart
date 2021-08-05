@@ -731,6 +731,141 @@ body {
 }
 
 .map {
-  margin-top: 30px;
+  margin-top: 18px;
   margin-bottom: 34px;
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: #32425c;
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+  min-width: 940px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.footer-topline {
+  min-height: 63px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-logo {
+  width: 220px;
+  height: auto;
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 0 #b62530;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0;
+  align-self: stretch;
+  height: auto;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  margin: 5px 0 2px -59px;
+  padding: 0;
+  flex-wrap: wrap;
+  max-width: 610px;
+  justify-content: flex-end;
+}
+
+.footer-item {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+  margin-left: 59px;
+}
+
+.footer-middle {
+  padding: 32px 0 10px;
+  min-height: 120px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.address,
+.footer-phone {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+  text-decoration: none;
+  margin: 0;
+  max-width: 325px;
+}
+
+.footer-middle-nav {
+  list-style: none;
+  display: flex;
+}
+
+.footer-middle-item {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.footer-underline {
+  margin-top: 0;
+  background-color: #243047;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.footer-container {
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  width: 313px;
+}
+
+.footer-social {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-button {
+  background: linear-gradient(0deg, #212a3a, #212a3a);
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.connect-text.connect-mail {
+  margin-right: 30px;
+}
+
+.connect-text a {
+  color: #ffd180;
+  text-decoration: none;
+}
+
+.connect {
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
 }
